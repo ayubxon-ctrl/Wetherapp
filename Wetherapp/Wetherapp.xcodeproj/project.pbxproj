@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC678BEC2AB97F9A00A0F24F /* WetherappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC678BEB2AB97F9A00A0F24F /* WetherappApp.swift */; };
+		FC678BEE2AB97F9A00A0F24F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC678BED2AB97F9A00A0F24F /* Persistence.swift */; };
+		FC678BF12AB97F9A00A0F24F /* Wetherapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC678BEF2AB97F9A00A0F24F /* Wetherapp.xcdatamodeld */; };
+		FC678BF32AB97F9A00A0F24F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC678BF22AB97F9A00A0F24F /* ContentView.swift */; };
+		FC678BF52AB97F9B00A0F24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC678BF42AB97F9B00A0F24F /* Assets.xcassets */; };
+		FC678BF92AB97F9B00A0F24F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC678BF82AB97F9B00A0F24F /* Preview Assets.xcassets */; };
+		FC678C032AB97F9B00A0F24F /* WetherappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC678C022AB97F9B00A0F24F /* WetherappTests.swift */; };
+		FC678C0D2AB97F9B00A0F24F /* WetherappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC678C0C2AB97F9B00A0F24F /* WetherappUITests.swift */; };
+		FC678C0F2AB97F9B00A0F24F /* WetherappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC678C0E2AB97F9B00A0F24F /* WetherappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC678BFF2AB97F9B00A0F24F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC678BE02AB97F9A00A0F24F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC678BE72AB97F9A00A0F24F;
+			remoteInfo = Wetherapp;
+		};
+		FC678C092AB97F9B00A0F24F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC678BE02AB97F9A00A0F24F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC678BE72AB97F9A00A0F24F;
+			remoteInfo = Wetherapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC678BE82AB97F9A00A0F24F /* Wetherapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wetherapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC678BEB2AB97F9A00A0F24F /* WetherappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherappApp.swift; sourceTree = "<group>"; };
+		FC678BED2AB97F9A00A0F24F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FC678BF02AB97F9A00A0F24F /* Wetherapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wetherapp.xcdatamodel; sourceTree = "<group>"; };
+		FC678BF22AB97F9A00A0F24F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC678BF42AB97F9B00A0F24F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC678BF62AB97F9B00A0F24F /* Wetherapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Wetherapp.entitlements; sourceTree = "<group>"; };
+		FC678BF82AB97F9B00A0F24F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC678BFE2AB97F9B00A0F24F /* WetherappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WetherappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC678C022AB97F9B00A0F24F /* WetherappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherappTests.swift; sourceTree = "<group>"; };
+		FC678C082AB97F9B00A0F24F /* WetherappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WetherappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC678C0C2AB97F9B00A0F24F /* WetherappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherappUITests.swift; sourceTree = "<group>"; };
+		FC678C0E2AB97F9B00A0F24F /* WetherappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WetherappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC678BE52AB97F9A00A0F24F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC678BFB2AB97F9B00A0F24F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC678C052AB97F9B00A0F24F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC678BDF2AB97F9A00A0F24F = {
+			isa = PBXGroup;
+			children = (
+				FC678BEA2AB97F9A00A0F24F /* Wetherapp */,
+				FC678C012AB97F9B00A0F24F /* WetherappTests */,
+				FC678C0B2AB97F9B00A0F24F /* WetherappUITests */,
+				FC678BE92AB97F9A00A0F24F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC678BE92AB97F9A00A0F24F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC678BE82AB97F9A00A0F24F /* Wetherapp.app */,
+				FC678BFE2AB97F9B00A0F24F /* WetherappTests.xctest */,
+				FC678C082AB97F9B00A0F24F /* WetherappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC678BEA2AB97F9A00A0F24F /* Wetherapp */ = {
+			isa = PBXGroup;
+			children = (
+				FC678BEB2AB97F9A00A0F24F /* WetherappApp.swift */,
+				FC678BED2AB97F9A00A0F24F /* Persistence.swift */,
+				FC678BF22AB97F9A00A0F24F /* ContentView.swift */,
+				FC678BF42AB97F9B00A0F24F /* Assets.xcassets */,
+				FC678BF62AB97F9B00A0F24F /* Wetherapp.entitlements */,
+				FC678BEF2AB97F9A00A0F24F /* Wetherapp.xcdatamodeld */,
+				FC678BF72AB97F9B00A0F24F /* Preview Content */,
+			);
+			path = Wetherapp;
+			sourceTree = "<group>";
+		};
+		FC678BF72AB97F9B00A0F24F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC678BF82AB97F9B00A0F24F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC678C012AB97F9B00A0F24F /* WetherappTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC678C022AB97F9B00A0F24F /* WetherappTests.swift */,
+			);
+			path = WetherappTests;
+			sourceTree = "<group>";
+		};
+		FC678C0B2AB97F9B00A0F24F /* WetherappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC678C0C2AB97F9B00A0F24F /* WetherappUITests.swift */,
+				FC678C0E2AB97F9B00A0F24F /* WetherappUITestsLaunchTests.swift */,
+			);
+			path = WetherappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC678BE72AB97F9A00A0F24F /* Wetherapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC678C122AB97F9B00A0F24F /* Build configuration list for PBXNativeTarget "Wetherapp" */;
+			buildPhases = (
+				FC678BE42AB97F9A00A0F24F /* Sources */,
+				FC678BE52AB97F9A00A0F24F /* Frameworks */,
+				FC678BE62AB97F9A00A0F24F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wetherapp;
+			productName = Wetherapp;
+			productReference = FC678BE82AB97F9A00A0F24F /* Wetherapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC678BFD2AB97F9B00A0F24F /* WetherappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC678C152AB97F9B00A0F24F /* Build configuration list for PBXNativeTarget "WetherappTests" */;
+			buildPhases = (
+				FC678BFA2AB97F9B00A0F24F /* Sources */,
+				FC678BFB2AB97F9B00A0F24F /* Frameworks */,
+				FC678BFC2AB97F9B00A0F24F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC678C002AB97F9B00A0F24F /* PBXTargetDependency */,
+			);
+			name = WetherappTests;
+			productName = WetherappTests;
+			productReference = FC678BFE2AB97F9B00A0F24F /* WetherappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC678C072AB97F9B00A0F24F /* WetherappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC678C182AB97F9B00A0F24F /* Build configuration list for PBXNativeTarget "WetherappUITests" */;
+			buildPhases = (
+				FC678C042AB97F9B00A0F24F /* Sources */,
+				FC678C052AB97F9B00A0F24F /* Frameworks */,
+				FC678C062AB97F9B00A0F24F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC678C0A2AB97F9B00A0F24F /* PBXTargetDependency */,
+			);
+			name = WetherappUITests;
+			productName = WetherappUITests;
+			productReference = FC678C082AB97F9B00A0F24F /* WetherappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC678BE02AB97F9A00A0F24F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FC678BE72AB97F9A00A0F24F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FC678BFD2AB97F9B00A0F24F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FC678BE72AB97F9A00A0F24F;
+					};
+					FC678C072AB97F9B00A0F24F = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FC678BE72AB97F9A00A0F24F;
+					};
+				};
+			};
+			buildConfigurationList = FC678BE32AB97F9A00A0F24F /* Build configuration list for PBXProject "Wetherapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC678BDF2AB97F9A00A0F24F;
+			productRefGroup = FC678BE92AB97F9A00A0F24F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC678BE72AB97F9A00A0F24F /* Wetherapp */,
+				FC678BFD2AB97F9B00A0F24F /* WetherappTests */,
+				FC678C072AB97F9B00A0F24F /* WetherappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC678BE62AB97F9A00A0F24F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC678BF92AB97F9B00A0F24F /* Preview Assets.xcassets in Resources */,
+				FC678BF52AB97F9B00A0F24F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC678BFC2AB97F9B00A0F24F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC678C062AB97F9B00A0F24F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC678BE42AB97F9A00A0F24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC678BF12AB97F9A00A0F24F /* Wetherapp.xcdatamodeld in Sources */,
+				FC678BEC2AB97F9A00A0F24F /* WetherappApp.swift in Sources */,
+				FC678BF32AB97F9A00A0F24F /* ContentView.swift in Sources */,
+				FC678BEE2AB97F9A00A0F24F /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC678BFA2AB97F9B00A0F24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC678C032AB97F9B00A0F24F /* WetherappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC678C042AB97F9B00A0F24F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC678C0D2AB97F9B00A0F24F /* WetherappUITests.swift in Sources */,
+				FC678C0F2AB97F9B00A0F24F /* WetherappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC678C002AB97F9B00A0F24F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC678BE72AB97F9A00A0F24F /* Wetherapp */;
+			targetProxy = FC678BFF2AB97F9B00A0F24F /* PBXContainerItemProxy */;
+		};
+		FC678C0A2AB97F9B00A0F24F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC678BE72AB97F9A00A0F24F /* Wetherapp */;
+			targetProxy = FC678C092AB97F9B00A0F24F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FC678C102AB97F9B00A0F24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC678C112AB97F9B00A0F24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FC678C132AB97F9B00A0F24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wetherapp/Wetherapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wetherapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp1.Wetherapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC678C142AB97F9B00A0F24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Wetherapp/Wetherapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wetherapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp1.Wetherapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC678C162AB97F9B00A0F24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp1.WetherappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wetherapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wetherapp";
+			};
+			name = Debug;
+		};
+		FC678C172AB97F9B00A0F24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp1.WetherappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wetherapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wetherapp";
+			};
+			name = Release;
+		};
+		FC678C192AB97F9B00A0F24F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp1.WetherappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wetherapp;
+			};
+			name = Debug;
+		};
+		FC678C1A2AB97F9B00A0F24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = myapp1.WetherappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wetherapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC678BE32AB97F9A00A0F24F /* Build configuration list for PBXProject "Wetherapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC678C102AB97F9B00A0F24F /* Debug */,
+				FC678C112AB97F9B00A0F24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC678C122AB97F9B00A0F24F /* Build configuration list for PBXNativeTarget "Wetherapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC678C132AB97F9B00A0F24F /* Debug */,
+				FC678C142AB97F9B00A0F24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC678C152AB97F9B00A0F24F /* Build configuration list for PBXNativeTarget "WetherappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC678C162AB97F9B00A0F24F /* Debug */,
+				FC678C172AB97F9B00A0F24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC678C182AB97F9B00A0F24F /* Build configuration list for PBXNativeTarget "WetherappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC678C192AB97F9B00A0F24F /* Debug */,
+				FC678C1A2AB97F9B00A0F24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC678BEF2AB97F9A00A0F24F /* Wetherapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC678BF02AB97F9A00A0F24F /* Wetherapp.xcdatamodel */,
+			);
+			currentVersion = FC678BF02AB97F9A00A0F24F /* Wetherapp.xcdatamodel */;
+			path = Wetherapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC678BE02AB97F9A00A0F24F /* Project object */;
+}
